@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import {LogoImage} from "../../image/Image.ts";
+import {Image} from "../../image/Image.ts";
 import logo from "../../../assets/images/Logo.png"
 import {Links} from "../../link/Link.ts";
 import {Button} from "../../button/Button.tsx";
@@ -9,7 +9,7 @@ const lists = ["Feature", "Download", "Pricing"]
 export const Header = () => {
     return (
         <StyledHeader>
-            <LogoImage img={logo}/>
+            <Image img={logo}/>
             <StyledListLink>
                 {lists.map((el, index) => {
                     return <li key={index}><Links>{el}</Links></li>
@@ -23,7 +23,7 @@ export const Header = () => {
                 </TypographyButtonText>
 
                 <Button>
-                    <TypographyButtonText>
+                    <TypographyButtonText padding={" 15px 30px"}>
                         Sign up
                     </TypographyButtonText>
                 </Button>

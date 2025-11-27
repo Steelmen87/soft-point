@@ -1,9 +1,10 @@
 import styled from "styled-components";
 //todo opacity: .7;
 export const Typography = styled.h1`
+    text-align: left;
     font-weight: 600;
     font-size: 54px;
-    line-height: 100%;
+    line-height: 75px;
     letter-spacing: 0;
 
     color: rgba(2, 18, 6, 1);
@@ -16,7 +17,25 @@ export const TypographyH2 = styled.h2`
     opacity: .7;
     color: rgba(2, 18, 6, 1);
 `
-export const TypographyGreen = styled.h1`
+export const TypographyH3 = styled.h2`
+    text-align: left;
+    margin-top: 25px;
+    font-weight: 400;
+    font-size: 21px;
+    line-height: 160%;
+    letter-spacing: 0;
+
+    color: #021206;
+
+    span {
+        font-weight: 500;
+        font-size: 21px;
+        line-height: 160%;
+        letter-spacing: 0;
+
+    }
+`
+export const TypographyGreen = styled.span`
     font-weight: 600;
     font-size: 54px;
     line-height: 100%;
@@ -26,19 +45,20 @@ export const TypographyGreen = styled.h1`
 `
 
 
-
 type TypographyButtonTextProps = {
     color?: string
+    padding?: string
 }
 export const TypographyButtonText = styled.span<TypographyButtonTextProps>`
     font-weight: 500;
     font-size: 18px;
     line-height: 100%;
     letter-spacing: 0;
+    padding: ${props => props.padding || "0"};
 
     &:hover {
         cursor: pointer;
     }
- 
+
     color: ${props => props.color || "#FFFFFF"};
 `
