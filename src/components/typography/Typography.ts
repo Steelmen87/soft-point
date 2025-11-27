@@ -14,17 +14,18 @@ export const TypographyH2 = styled.h2`
     font-size: 45px;
     line-height: 100%;
     letter-spacing: 0;
-    opacity: .7;
+    //opacity: .7;
     color: rgba(2, 18, 6, 1);
+    
 `
-export const TypographyH3 = styled.h2`
+export const TypographyH3 = styled.h3`
     text-align: left;
     margin-top: 25px;
     font-weight: 400;
     font-size: 21px;
     line-height: 160%;
     letter-spacing: 0;
-
+   
     color: #021206;
 
     span {
@@ -32,6 +33,23 @@ export const TypographyH3 = styled.h2`
         font-size: 21px;
         line-height: 160%;
         letter-spacing: 0;
+
+    }
+`
+export const TypographyH4 = styled.h4`
+    max-width:480px;
+    
+    width: 100%;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 160%;
+    letter-spacing: 0 ;
+    color: #021206;
+    span{
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 160%;
+        letter-spacing: 0 ;
 
     }
 `
@@ -50,6 +68,7 @@ type TypographyButtonTextProps = {
     padding?: string
 }
 export const TypographyButtonText = styled.span<TypographyButtonTextProps>`
+   
     font-weight: 500;
     font-size: 18px;
     line-height: 100%;
