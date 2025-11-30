@@ -60,10 +60,12 @@ type ImageEllipseProps = {
     shadow?: string
     top?: string
     left?: string
+    width?:string
+    height?:string
 }
-const ImageEllipse = styled.div<ImageEllipseProps>`
-    width: 136px;
-    height: 136px;
+export const ImageEllipse = styled.div<ImageEllipseProps>`
+    width: ${props => props.width || "136px"};
+    height:${props => props.height || "136px"};
     border-radius: 70px;
     background: ${props => props.gradient};
     position: absolute;
