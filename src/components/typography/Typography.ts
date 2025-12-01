@@ -66,14 +66,16 @@ export const TypographyGreen = styled.span`
 type TypographyButtonTextProps = {
     color?: string
     padding?: string
+    paddingLR?:string
 }
 export const TypographyButtonText = styled.span<TypographyButtonTextProps>`
-   
     font-weight: 500;
     font-size: 18px;
     line-height: 100%;
     letter-spacing: 0;
     padding: ${props => props.padding || "0"};
+    padding-left: ${props => props.paddingLR || "0"};
+    padding-right: ${props => props.paddingLR || "0"};
 
     &:hover {
         cursor: pointer;

@@ -5,6 +5,7 @@ import {TheCompany} from "./components/layout/theСompany/TheСompany.tsx";
 import {CompleteSoftwareSolution} from "./components/layout/completeSoftwareSolution/CompleteSoftwareSolution.tsx";
 import {Discover} from "./components/layout/discover/Discover.tsx";
 import {DiscoverPartTwo} from "./components/layout/discover/DiscoverPartTwo.tsx";
+import {GetOurSoftware} from "./components/layout/getOurSoftware/GetOurSoftware.tsx";
 
 function App() {
 
@@ -16,6 +17,7 @@ function App() {
             <CompleteSoftwareSolution/>
             <Discover/>
             <DiscoverPartTwo/>
+            <GetOurSoftware/>
         </>
     )
 }

@@ -68,7 +68,7 @@ export const CompleteSoftwareSolution = () => {
                 </TypographyH4>
                 <BlockButtonLink>
                     <Button grandColor={"black"}>
-                        <TypographyButtonText padding={"15px"}>
+                        <TypographyButtonText padding={"5px"} >
                             Learn more
                         </TypographyButtonText>
                     </Button>
