@@ -14,5 +14,6 @@ export const Image = styled.image<PropsType>`
     height: ${props => props.height || "36px"};
     box-shadow: ${props=>props.shadow && "1px 5px 35px 0 rgba(215, 21, 21, 0.5)"};
     object-fit: cover;
+     
     
 `

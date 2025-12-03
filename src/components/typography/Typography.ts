@@ -36,6 +36,16 @@ export const TypographyH3 = styled.h3`
 
     }
 `
+export const TypographyH3_4 = styled.h4`
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 170%;
+    letter-spacing: 0;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 35px;
+
+`
 export const TypographyH4 = styled.h4`
     max-width:480px;
     
@@ -52,6 +62,17 @@ export const TypographyH4 = styled.h4`
         letter-spacing: 0 ;
 
     }
+`
+export const TypographyH6 = styled.h4`
+    padding-top: 10px;
+    
+    max-width: 220px;
+    text-align: left;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 160%;
+    letter-spacing: 0%;
+
 `
 export const TypographyGreen = styled.span`
     font-weight: 600;

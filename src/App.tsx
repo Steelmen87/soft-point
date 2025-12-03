@@ -6,6 +6,8 @@ import {CompleteSoftwareSolution} from "./components/layout/completeSoftwareSolu
 import {Discover} from "./components/layout/discover/Discover.tsx";
 import {DiscoverPartTwo} from "./components/layout/discover/DiscoverPartTwo.tsx";
 import {GetOurSoftware} from "./components/layout/getOurSoftware/GetOurSoftware.tsx";
+import {Footer} from "./components/layout/footer/Footer.tsx";
+import {BestPricingPlan} from "./components/layout/bestPricingPlan/BestPricingPlan.tsx";
 
 function App() {
 
@@ -18,6 +20,8 @@ function App() {
             <Discover/>
             <DiscoverPartTwo/>
             <GetOurSoftware/>
+            <BestPricingPlan/>
+            <Footer/>
         </>
     )
 }

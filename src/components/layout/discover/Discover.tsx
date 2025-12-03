@@ -74,10 +74,10 @@ const StyledImageBlock = styled.div`
     height: 100%;
     //border: 1px solid;
 `
-const StyledItem = styled.li`
+export const StyledItem = styled.li`
 
 `
-const StyledList = styled.ul`
+export const StyledList = styled.ul`
     list-style-image: url(${don});
     padding-left: 26px;
 
